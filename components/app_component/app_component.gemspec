@@ -8,11 +8,7 @@ Gem::Specification.new do |spec|
   spec.name        = "app_component"
   spec.version     = AppComponent::VERSION
   spec.authors     = ["Anne Richardson"]
-  spec.email       = ["richardson.ae@gmail.com"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of AppComponent."
-  spec.description = "TODO: Description of AppComponent."
-  spec.license     = "MIT"
+  spec.summary     = "Summary of AppComponent."
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
