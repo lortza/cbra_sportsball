@@ -1,5 +1,6 @@
-require "app_component/engine"
+# must require all gems in this main component
+require "slim-rails"
 
 module AppComponent
-  # Your code goes here...
+  require "app_component/engine"
 end
