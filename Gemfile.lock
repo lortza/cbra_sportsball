@@ -1,5 +1,5 @@
 PATH
-  remote: components/app_component
+  remote: components
   specs:
     app_component (0.1.0)
       rails (~> 6.0.2, >= 6.0.2.1)
