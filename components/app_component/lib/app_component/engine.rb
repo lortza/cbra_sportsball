@@ -9,5 +9,13 @@ module AppComponent
         app.config.paths["db/migrate"].concat(config.paths["db/migrate"].expanded)
       end
     end
+
+    # Set up default configs for our favorite tools
+    config.generators do |g|
+      g.orm             :active_record
+      g.template_engine :slim
+      g.test_framework  :rspec
+    end
+
   end
 end

@@ -22,6 +22,10 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'trueskill',
+    git: 'https://github.com/benjaminleesmith/trueskill',
+    ref: 'e404f45af5b3fb86982881ce064a9c764cc6a901'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
